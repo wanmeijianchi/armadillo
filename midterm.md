@@ -5,7 +5,7 @@
 - Accelerating by avoiding repetitive computation
 - Accelerating by changing orders of matrix computation
 ### Accelerating by formulars
-$$ (A+UCV)^{-1}=A^{-1}-A^{-1}U(C^{-1}+VA^{-1}U)^{-1}VA^{-1}$$
+$(A+UCV)^{-1}=A^{-1}-A^{-1}U(C^{-1}+VA^{-1}U)^{-1}VA^{-1}$
 $$ det(A+UWV^T) = det(W^{-1}+V^TA^{-1}U)det(W)det(A)$$
 
 
